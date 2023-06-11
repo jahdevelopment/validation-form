@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.App {
+  background-color: #081229;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #EA4E85;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form {
+  min-width: 560px;
+  max-width: 960px;
+}
+
+h1 { 
+  text-align: center;
+}
+
+.btn-p {
+  background-color: #EA4E85;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: none;
+  width: 50vh;
+  color: aliceblue;
+  border-radius: 5px;
+  margin-top: 20px;
+ margin-left: auto;
+margin-right: auto;
+}
+
+.btn-space {
+  display: flex;
+  align-items: center;
+}
+
+
